@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-washcodestandards",
   "version": "1.0.1",
-  "description": "全功能洗涤产业前端代码规范(eslint+vuelint+stylelint)",
+  "description": "前端代码规范(eslint+vuelint+stylelint)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
