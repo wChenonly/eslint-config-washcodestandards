@@ -8,8 +8,25 @@ module.exports = {
   'vue/component-tags-order': ['error', {
     'order': ['style', 'template', 'script']
   }],
-  //
   'vue/no-v-html': 'off',
+  'vue/max-attributes-per-line': ['warn', {
+    'singleline': {
+      'max': 2,
+      'allowFirstLine': true
+    },
+    'multiline': {
+      'max': 1,
+      'allowFirstLine': false
+    }
+  }],
+  'vue/singleline-html-element-content-newline': ['off', {
+    'ignoreWhenNoAttributes': true,
+    'ignoreWhenEmpty': true,
+    'ignores': ['pre']
+  }],
+  'vue/no-template-shadow': 'off',
+  'vue/no-v-for-template-key': 'off',
+
   // 除 eslint:recommended外的自定义的js规则
 
   // 强制getter/setter成对出现在对象中
