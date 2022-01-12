@@ -11,12 +11,10 @@ module.exports = {
   'vue/no-v-html': 'off',
   'vue/max-attributes-per-line': ['warn', {
     'singleline': {
-      'max': 2,
-      'allowFirstLine': true
+      'max': 2
     },
     'multiline': {
-      'max': 1,
-      'allowFirstLine': false
+      'max': 1
     }
   }],
   'vue/singleline-html-element-content-newline': ['off', {
