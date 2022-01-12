@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-washcodestandards",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "前端代码规范(eslint+vuelint+stylelint)",
   "main": "index.js",
   "scripts": {
